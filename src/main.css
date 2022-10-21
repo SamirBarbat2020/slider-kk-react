@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*  ========================
+      Thummbnail
+  ======================== */
+.thumContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  /* width: 30%; */
+}
+
+.carousel {
+  /* width: 80%; */
+  overflow: hidden;
+}
+
+.inner-carousel {
+  display: flex;
+  /* width: 35rem; */
+
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1rem;
+}
+
+
+.item-img {
+  margin: 2px;
+  width: 7rem;
+}
+
+.active {
+  border: 2px solid gray;
+  background-color: red;
+}
+
+/*  ========================
+      Slidery
+  ===========y============= */
+.reviewContainer-image {
+  width: 60%;
+  display: flex;
+}
+
+.reviewContainer-image img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.button-thum-container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.arow {
+  display: flex;
+  align-items: center;
+}
+
+/* ===============================
+          Modal
+=============================== */
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalConstiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modalConstiner {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.modalConstiner img {
+  width: 80%;
+}
